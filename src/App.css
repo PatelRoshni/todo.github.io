@@ -1,0 +1,137 @@
+.input-box-todo{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  border-radius: 50px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 20px;
+}
+.cal-date{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  border-radius: 50px;
+  width: 10%;
+  padding: 12px 20px;
+  margin: 20px;
+}
+.input-container{
+  text-align: center;
+}
+
+.add-btn{
+  background-color: #778899; /* Light Slate Grey */
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 15px;
+}
+.center-table {
+  margin: 0 auto;
+}
+.spaced-cell {
+  padding: 10px;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+td {
+  flex: 1;
+}
+.heading {
+  font-weight: bold;
+  margin-left: 15px;
+
+}
+.item-list{
+  border-left: 7px solid blue;
+  border-right: 7px solid blue;
+  background-color: #cdd6ec;
+  padding: 5px 5px;
+  border-radius: 70px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+.icons-delete:hover{
+  color: red;
+  transform: scale(1.2);
+}
+.icons-list{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.icons-delete{
+ display: flex;
+ margin-right: 10px;
+ padding: 5px;
+ font-weight: bold;
+ border-radius: 3px;
+}
+.icons-check{
+ display: flex;
+ margin-right: 10px;
+ padding: 13px;
+ font-weight: bold;
+ border-radius: 5px;
+}
+.icons-check:hover{
+  color: green;
+  transform: scale(1.2);
+}
+.container {
+   flex-direction: column;
+   align-items: center;
+ }
+ /* .top-component {
+   padding: 10px;
+   border: 1px solid #ccc;
+ } */
+ .main-top-container {
+   background-color: #d5def6;
+ }
+ .bottom-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+ }
+ .bottom-right-component {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #FFFFFF;
+   background-color: #d3f8ed;
+ }
+ .bottom-left-component {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #FFFFFF;
+   background-color: #ffcccc;
+ }
+ .compItem-list{
+   border-left: 7px solid green;
+   border-right: 7px solid green;
+   background-color: #d4e4e4;
+   padding: 5px 5px;
+   border-radius: 50px;
+   width: 550px;
+   margin: auto;
+   display: flex;
+   margin-bottom: 10px;
+ }
+ .dueItem-list{
+   border-left: 7px solid red;
+   border-right: 7px solid red;
+   background-color: #eacece;
+   padding: 5px 5px;
+   border-radius: 50px;
+   width: 550px;
+   margin: auto;
+   display: flex;
+   margin-bottom: 10px;
+ }
